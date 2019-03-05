@@ -1,0 +1,7 @@
+.scroll {
+    position: absolute;
+    top: 25vh;
+    width: 100vw;
+    transition: opacity 1s ease-in;
+    z-index: 1;
+}

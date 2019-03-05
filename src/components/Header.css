@@ -1,0 +1,25 @@
+#logo {
+  z-index: 2;
+  width: 15vw;
+  margin: 4vh 0 0 2vw;
+}
+
+.the-top-head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12vh;
+}
+#logo:hover {
+  transform: scale(1.1);
+  transition: transform 0.1s ease-in;
+}
+
+#logo-pic {
+  width: 15vw;
+}
+
+@media only screen and (max-width: 650px) {
+  .the-top-head {
+    margin-bottom: 15vh;
+  }
+}

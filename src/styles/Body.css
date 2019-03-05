@@ -1,0 +1,35 @@
+.body-container {
+    margin: 160vh 0 5vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.homeImageContainer {
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 4vw 0;
+    z-index: 1;
+}
+
+.scalingImage-container h2 {
+    margin-top: 4vh;
+}
+
+.body-paragraph {
+    width: 375px;
+}
+
+@media only screen and (max-width: 650px) {
+    .homeImageContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .scalingImage, .scale {
+        width: 80vw;
+    }
+}
